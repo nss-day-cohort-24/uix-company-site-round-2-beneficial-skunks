@@ -9,106 +9,111 @@
 <body>
   <img>
   <h1 class="headline">Checkout</h1>
-  <aside class="cart-list">
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-      <li>Item 4</li>
-    </ul>
-  </aside>
-  <form action="" method="post">
-    <div class="shipping-checkout">
-      <fieldset>
-        <legend>Shipping Address</legend>
-            <div>
-              <span class="firstName-field">
-                <label for="first-name"></label>
-                <input id="first-name" type="text" name="" placeholder="First Name" required>
-              </span>
-              <span>
-                <label for="last-name"></label>
-                <input id="last-name" type="text" name="" placeholder="Last Name" required>
-              </span>
-            </div>
-            <div>
-              <span>
-                <label for="area-code"></label>
-                <input id="area-code" type="text" name="" placeholder="Area Code" required>
-              </span>
-              <span>
-                <label for="phone-number"></label>
-                <input id="phone-number" type="text" name="" placeholder="Phone Number" required>
-              </span>
-            </div>
-            <div>
-              <span>
-                <label for="address-1"></label>
-                <input id="address-1" type="text" name="" placeholder="Street Address" required>
-              </span>
-            </div>
-            <div>
-              <span>
-                <label for="address-2"></label>
-                <input id="address-2" type="text" name="" placeholder="Apt., Suite, Building, etc." required>
-              </span>
-            </div>
-            <div>
-              <span>
-                <label for="country">Country</label>
-                <input id="country" type="text" name="">
-            </span>
-            </div>
-            <div>
-              <span>
-                <label for="postal-code"></label>
-                <input id="postal-code" type="text" name="" placeholder="Postal Code" required>
-                <label for="state-province"></label>
-                <input id="state-province" type="text" name="" placeholder="State or Province" required>
-              </span>
-            </div>
-        </div>
-          <input type="submit" value="Next">
-    </fieldset>
+      <div class="container">
+        <!-- <aside class="cart-list"> -->
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+          </ul>
+        </aside>
+        <form action="" method="post">
+          <div class="shipping-checkout">
+            <fieldset>
+              <legend>Shipping Address</legend>
+                  <div>
+                    <span class="firstName-field">
+                      <label for="first-name"></label>
+                      <input id="first-name" type="text" name="" placeholder="First Name" required>
+                    </span>
+                    <span>
+                      <label for="last-name"></label>
+                      <input id="last-name" type="text" name="" placeholder="Last Name" required>
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <label for="area-code"></label>
+                      <input id="area-code" type="text" name="" placeholder="Area Code" required>
+                    </span>
+                    <span>
+                      <label for="phone-number"></label>
+                      <input id="phone-number" type="text" name="" placeholder="Phone Number" required>
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <label for="address-1"></label>
+                      <input id="address-1" type="text" name="" placeholder="Street Address" required>
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <label for="address-2"></label>
+                      <input id="address-2" type="text" name="" placeholder="Apt., Suite, Building, etc." required>
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <label for="country">Country</label>
+                      <input id="country" type="text" name="">
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <label for="postal-code"></label>
+                      <input id="postal-code" type="text" name="" placeholder="Postal Code" required>
+                      <label for="state-province"></label>
+                      <input id="state-province" type="text" name="" placeholder="State or Province" required>
+                    </span>
+                  </div>
+            </fieldset>
 
-    <fieldset>
-      <legend>Country of Billing Address</legend>
-        <label for="billing-country">United States</label>
-        <input id="billing-country" type="text" name="">
-    </fieldset>
-    <fieldset>
-      <legend>Billing Contact</legend>
-        <label for="b-first-name">First Name</label>
-        <input id="b-first-name" type="text" name="">
-        <label for="b-last-name">Last Name</label>
-        <input id="b-last-name" type="text" name="">
-        <label for="b-area-code">Area Code</label>
-        <input id="b-area-code" type="text" name="">
-        <label for="b-phone-number">Phone Number</label>
-        <input id="b-phone-number" type="text" name="">
-    </fieldset>
-    <fieldset>
-      <legend>Billing Address</legend>
-        <label for="">Street Address</label>
-        <input id="b-address-1" type="text" name="">
-        <label for="">Street Address (optional)</label>
-        <input id="b-address-2" type="text" name="">
-        <label for="">Postal Code</label>
-        <input id="b-postal-code" type="text" name="">
-        <input type="submit" value="">
-    </fieldset>
-    <fieldset>
-      <legend>Payment Information</legend>
-        <label for="card-number">Card Number</label>
-        <input id="card-number" type="text" name="">
-        <label for="security-code">Security Code</label>
-        <input id="security-code" type="text" name="">
-        <label for="b-month">Month</label>
-        <input id="b-month" type="text" name="">
-        <label for="b-year">Year</label>
-        <input id="b-year" type="text" name="">
-    </fieldset>
-  </form>
+              <div class="advance">
+                <input type="submit" value="Next">
+              </div>
+          <div>
+            <fieldset>
+              <legend>Country of Billing Address</legend>
+                <label for="billing-country">United States</label>
+                <input id="billing-country" type="text" name="">
+            </fieldset>
+            <fieldset>
+              <legend>Billing Contact</legend>
+                <label for="b-first-name">First Name</label>
+                <input id="b-first-name" type="text" name="">
+                <label for="b-last-name">Last Name</label>
+                <input id="b-last-name" type="text" name="">
+                <label for="b-area-code">Area Code</label>
+                <input id="b-area-code" type="text" name="">
+                <label for="b-phone-number">Phone Number</label>
+                <input id="b-phone-number" type="text" name="">
+            </fieldset>
+            <fieldset>
+              <legend>Billing Address</legend>
+                <label for="">Street Address</label>
+                <input id="b-address-1" type="text" name="">
+                <label for="">Street Address (optional)</label>
+                <input id="b-address-2" type="text" name="">
+                <label for="">Postal Code</label>
+                <input id="b-postal-code" type="text" name="">
+                <input type="submit" value="">
+            </fieldset>
+            <fieldset>
+            <legend>Payment Information</legend>
+              <label for="card-number">Card Number</label>
+              <input id="card-number" type="text" name="">
+              <label for="security-code">Security Code</label>
+              <input id="security-code" type="text" name="">
+              <label for="b-month">Month</label>
+              <input id="b-month" type="text" name="">
+              <label for="b-year">Year</label>
+              <input id="b-year" type="text" name="">
+          </fieldset>
+          </div>
+      </form>
+    </div>
   <footer></footer>
 </body>
 </html>
