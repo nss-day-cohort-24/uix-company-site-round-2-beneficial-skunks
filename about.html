@@ -4,57 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="about.css">
     <title>AboutUs/ContuctUs</title>
 </head>
 <body>
+    <div class="body-wrapper">
+        <img class="cover-photo" src="img/teamwork.jpg" alt="">  
+
         <header>  
             <!--Draft For Nav Bar-->
             <div>                                                         
-                <div class="container">
-                    <div class="home1"><strong><a href="" id="home">Home</a></strong></div>
-                    <div class="product2"><a href=".html" id="page">Product Details</a></div>
-                    <div class="product3"><a href=".html" id="page">Product Details</a></div>
-                    <div class="shpping4"><a href=".html" id="page">Shopping Cart</a></div>
-                    <div class="about5"><a href=".html" id="page">Abou Us & Contact Us</a></div>
-                </div>   
-            </div>    
-      </header>
-             <div class="about-section">
-              <h1>
-              About Us
-              </h1>
-                <!-- <img src="" alt="">  Background Img for "About Us Story"   -->
-             <p>
-             These spying apps can take control of your phone camera, access your location with GPS tracker, contact list, read your text message and even listen to your phone conversations. Here we are introducing a list of free apps that can help your phone from spying app.
-            </p>
-         </div>
-     <div>
-          <h2>
-              Contact Us
-          </h2>
-          <form method="post">  <!--Email action=""{{e4nastya@gmail.com}} -->
-    
-            <div class="contact-input-container">
-                <label>
-                    <span>Your Name</span>
-                    <input class="box-style"  type="text" name="name">
-                </label>
-                 
-                 <label><span>Your Email</span>
-                 <input class="box-style"  type="email" name="_replyto"></label>
-             </div>
-                
-                 <label>
-                    <span>Message</span>
-                    <textarea class="box-style" name="message"></textarea>
-                 </label>
-                 
-                 <input class="box-style contact-submit-button" type="submit" value="Send">
-                 
-            </form>
-     </div>
+                <ul class="nav-container">
+                     <li class="nav-option">
+                         <strong>
+                             <a href="" id="home">Home</a>
+                        </strong>
+                    </li>
+                    <li class="nav-option">
+                        <a href="" id="product_link">Product</a>
+                    </li>
 
+                    <li class="nav-option">
+                        <a href="" id="product_details_link">Product Details</a>
+                    </li>
+
+                    <li class="nav-option">
+                        <a href="" id="shopping_cart_link">Shopping Cart</a>
+                    </li>
+
+                    <li class="nav-option">
+                        <a href="" id="about_us_link">About Us</a>
+                    </li>
+
+                    <li class="nav-option">
+                            <a href="" id="contact_us_link">Contact Us</a>
+                        </li>
+                </ul>   
+            </div>    
+        </header>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="form-model" id="contact-us-form">
+            <h2>Contact Us</h2>
+            <form class="input-form" method="post">  <!--Email action=""{{e4nastya@gmail.com}} -->
+        
+                <div class="contact-input-container">
+                    <label>
+                        <span>Your Name</span>
+                        <input class="box-style"  type="text" name="name">
+                    </label>
+                    
+                    <label><span>Your Email</span>
+                    <input class="box-style"  type="email" name="_replyto"></label>
+                </div>
+                    
+                    <label>
+                        <span>Message</span>
+                        <textarea class="box-style" name="message"></textarea>
+                    </label>
+                    
+                    <input class="box-style contact-submit-button" type="submit" value="Send">
+                    
+                </form>
+        </div>
+    </div>
 
 </body>
 <footer class="main-footer">
