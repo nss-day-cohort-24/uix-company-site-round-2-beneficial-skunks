@@ -7,7 +7,7 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size: 60px;
-    color: #bbca47;
+    color: #7c9e3f;
 }
 
 h2 {
@@ -28,7 +28,6 @@ p {
     font-family: 'Montserrat', sans-serif;
     color: #8e8a87;
 }
-
 /* color classes */
 
 .darkGrey {
@@ -68,7 +67,8 @@ p {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     border-bottom: 1px solid lightgray;
-    margin-left: -8px; /* not sure why it needs this - woof */
+    border-radius: 0;
+    margin-left: 0;
     padding: 0;
 }
 
@@ -99,4 +99,22 @@ nav {
 /* Main content */
 .main {
     margin-top: 100px;
+}
+
+/* ==== carousel ===== */
+
+#carouselExampleIndicators img {
+    width: 100%;
+}
+
+/* ==== home ===== */
+
+.mainH1 {
+  position: absolute;
+  color: #fff;
+  bottom: 20%;
+  right: 5%;
+  z-index: 20;
+  font-size: 120px;
+  text-shadow: 0 1px 2px #000;
 }
