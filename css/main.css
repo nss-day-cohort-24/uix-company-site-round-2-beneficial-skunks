@@ -1,4 +1,66 @@
-/* The navigation bar */
+/* ======= Base Styles ======== */
+
+/* fonts */
+
+h1 {
+    /* DO NOT USE ALL CAPS */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    color: #bbca47;
+}
+
+h2 {
+    /* sub-header, quotes, standout words */
+    /* DO NOT USE ALL CAPS */
+    font-family: 'Cardo', serif;
+    font-size: 25px;
+    color: #dbdfe0;
+}
+
+h3 {
+    /* Callout type, additional sub-headers, tiny type, footer */
+    font-family: 'Oswald', sans-serif;
+    color: #00a3b0;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #8e8a87;
+}
+
+/* color classes */
+
+.darkGrey {
+    background-color: #8e8a87;
+}
+
+.skyBlue {
+    background-color: #1bbbd3;
+}
+
+.oceanBlue {
+    background-color: #00a3b0;
+}
+
+.greyBlue {
+    background-color: #7bcbcc;
+}
+
+.avocadoLight {
+    background-color: #bbca47;
+}
+
+.avocadoDark {
+    background-color: #7c9e3f;
+}
+
+.lightGrey {
+    background-color: #dbdfe0;
+}
+
+
+/* ======= The navigation bar ======= */
 .navbar {
     position: fixed; /* Set the navbar to fixed position */
     z-index: 9999;
@@ -36,5 +98,5 @@ nav {
 
 /* Main content */
 .main {
-    margin-top: 30px;
+    margin-top: 100px;
 }
