@@ -30,7 +30,7 @@
             margin-right: 10px;
         }
         .navbar a {
-            margin-right: 90px;
+            margin-right: 100px;
         }
 
         
@@ -43,7 +43,6 @@
     .main-product-div {
         display: flex;
         flex-direction: column;
-        background-color: #dbdfe0;
         align-items: center;
         margin-top: 100px;
         margin-left: -10px;
