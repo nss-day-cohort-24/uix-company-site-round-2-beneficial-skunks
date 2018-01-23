@@ -32,7 +32,8 @@
             margin-right: 90px;
         }
 
-/* The Products Page */
+        
+/*=== The Products Page ===*/
 .main-product:link, .main-product:visited {
     text-decoration: none;
     color: black;
@@ -56,3 +57,5 @@
         .main-product img {
             align-self: center;
         }
+
+/* === Products 1 through 6 === */
