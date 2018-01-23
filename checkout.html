@@ -2,41 +2,75 @@
 <html>
 <head>
   <title>Safety Net</title>
-  <link rel="stylesheet" type="text/css" href="">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Montserrat:300,400|Oswald:600" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/checkout.css">
   <script></script>
 </head>
 <body>
   <img>
-  <h1>Checkout</h1>
-  <aside>
+  <h1 class="headline">Checkout</h1>
+  <aside class="cart-list">
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
     </ul>
   </aside>
   <form action="" method="post">
-    <fieldset>
-      <legend>Shipping Address</legend>
-        <label for="first-name">First Name</label>
-        <input id="first-name" type="text" name="">
-        <label for="last-name">Last Name</label>
-        <input id="last-name" type="text" name="">
-        <label for="area-code">Area Code</label>
-        <input id="area-code" type="text" name="">
-        <label for="phone-number">Phone Number</label>
-        <input id="phone-number" type="text" name="">
-        <label for="address-1">Street Address</label>
-        <input id="address-1" type="text" name="">
-        <label for="address-2">Street Address (optional)</label>
-        <input id="address-2" type="text" name="">
-        <label for="country">Country</label>
-        <input id="country" type="text" name="">
-        <label for="postal-code">Postal Code</label>
-        <input id="postal-code" type="text" name="">
-        <input type="submit" value="Continue">
+    <div class="shipping-checkout">
+      <fieldset>
+        <legend>Shipping Address</legend>
+            <div>
+              <span class="firstName-field">
+                <label for="first-name"></label>
+                <input id="first-name" type="text" name="" placeholder="First Name" required>
+              </span>
+              <span>
+                <label for="last-name"></label>
+                <input id="last-name" type="text" name="" placeholder="Last Name" required>
+              </span>
+            </div>
+            <div>
+              <span>
+                <label for="area-code"></label>
+                <input id="area-code" type="text" name="" placeholder="Area Code" required>
+              </span>
+              <span>
+                <label for="phone-number"></label>
+                <input id="phone-number" type="text" name="" placeholder="Phone Number" required>
+              </span>
+            </div>
+            <div>
+              <span>
+                <label for="address-1"></label>
+                <input id="address-1" type="text" name="" placeholder="Street Address" required>
+              </span>
+            </div>
+            <div>
+              <span>
+                <label for="address-2"></label>
+                <input id="address-2" type="text" name="" placeholder="Apt., Suite, Building, etc." required>
+              </span>
+            </div>
+            <div>
+              <span>
+                <label for="country">Country</label>
+                <input id="country" type="text" name="">
+            </span>
+            </div>
+            <div>
+              <span>
+                <label for="postal-code"></label>
+                <input id="postal-code" type="text" name="" placeholder="Postal Code" required>
+                <label for="state-province"></label>
+                <input id="state-province" type="text" name="" placeholder="State or Province" required>
+              </span>
+            </div>
+        </div>
+          <input type="submit" value="Next">
     </fieldset>
+
     <fieldset>
       <legend>Country of Billing Address</legend>
         <label for="billing-country">United States</label>

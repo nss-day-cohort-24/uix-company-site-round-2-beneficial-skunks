@@ -1,0 +1,14 @@
+.headline {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.shipping-checkout {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  float: left;
+  width: 400px;
+}
+
+#first-name {
+  font-size: 12px;
+}
