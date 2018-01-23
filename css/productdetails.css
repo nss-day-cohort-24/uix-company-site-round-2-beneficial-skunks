@@ -2,3 +2,14 @@
 #carouselExampleIndicators img {
     width: 100%;
 }
+
+.featDetails {
+    display: block;
+    text-align: left;
+    margin: 0 30% 0 30%;
+}
+
+.featDetails h3 {
+    padding-left: 1em;
+    display: inline;
+}
