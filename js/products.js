@@ -1,7 +1,6 @@
 console.log("JS TEST");
 
 var products = [
-    {image: "images/Tech-Fill.png", name: "Main Product"},
     {image: "images/Tech-Fill.png", name: "Product-1"},
     {image: "images/Tech-Fill.png", name: "Product-2"},
     {image: "images/Tech-Fill.png", name: "Product-3"},
