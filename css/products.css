@@ -1,0 +1,35 @@
+/* The navigation bar */
+.navbar {
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+    .navbar ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
+    .navbar ul li {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+.main-product {
+    display: flex;
+    flex-direction: column;
+    background-color: #dbdfe0;
+    align-items: center;
+    margin-top: 50px;
+}
+    a:link, a:visited {
+        text-decoration: none;
+        color: black;
+    }
+    .main-product h2 {
+        margin-bottom: 0px; 
+    }
+    .main-product img {
+        align-self: center;
+    }
