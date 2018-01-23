@@ -5,6 +5,7 @@
     top: 0;
     width: 100%;
     margin-left: -10px;
+    z-index: 999;
 }
     nav {
         display: flex;
@@ -59,3 +60,8 @@
         }
 
 /* === Products 1 through 6 === */
+.product-1 {
+    position: relative;
+    color: red;
+    margin-left: -8px;
+}

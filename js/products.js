@@ -13,7 +13,7 @@ var productsInput = "";
 for (i = 0; i < products.length; i++) {
     productsInput += `<div class="product-${products[i].number}">`;
     productsInput += `<img src="${products[i].image}"/>`;
-    productsInput += `<h2 class="product-name">${products[i].name}</h2>`;
+    productsInput += `<div class="product-name"><h2>${products[i].name}</h2></div>`;
     productsInput += `<div class="learn-more">Learn More</div>`;
     productsInput += `</div>`;
 }
