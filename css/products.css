@@ -4,8 +4,8 @@
     background-color: #8e8a87;
     top: 0;
     width: 100%;
-    margin-left: -10px;
-    z-index: 999;
+    margin-left: -8px;
+    z-index: 9999;
 }
     nav {
         display: flex;
@@ -30,7 +30,12 @@
             margin-right: 10px;
         }
         .navbar a {
-            margin-right: 100px;
+            margin-right: 40px;
+            padding: 14px 16px;
+        }
+        .navbar a:hover {
+            background: #bbca47;
+            color: #8e8a87;
         }
 
         
@@ -59,8 +64,7 @@
         }
 
 /* === Products 1 through 6 === */
-.product-1 {
-    position: relative;
-    color: red;
-    margin-left: -8px;
+#cards {
+    display: flex;
+    flex-wrap: wrap;
 }
