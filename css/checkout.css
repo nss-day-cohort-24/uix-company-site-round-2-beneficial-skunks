@@ -1,6 +1,12 @@
+.container {
+  margin: auto;
+  max-width: 85%;
+}
+
 .headline {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  text-align: center;
 }
 .shipping-checkout {
   font-family: 'Montserrat', sans-serif;
@@ -9,6 +15,15 @@
   width: 400px;
 }
 
-#first-name {
+input {
   font-size: 12px;
+  padding: 4px;
+}
+
+.advance {
+  display: block;
+}
+
+#address-2 {
+  max-width: 100%;
 }
