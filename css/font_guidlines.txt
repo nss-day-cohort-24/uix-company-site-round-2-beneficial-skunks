@@ -1,0 +1,10 @@
+Montserrat(light 300)-Headlines, not all caps
+Monteserrat Regular- body copy, not all caps
+Cardo regular italic- subheaders, not all caps
+oswald, all caps
+
+<link href="https://fonts.googleapis.com/css?family=Cardo:400i|Montserrat:300,400|Oswald:600" rel="stylesheet">
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Cardo', serif;
+font-family: 'Oswald', sans-serif;
