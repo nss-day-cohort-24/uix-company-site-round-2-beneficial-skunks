@@ -1,35 +1,70 @@
 /* The navigation bar */
 .navbar {
-    width: 70px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    position: fixed;
+    background-color: #8e8a87;
+    top: 0;
+    width: 100%;
+    margin-left: -8px;
+    z-index: 9999;
 }
-    .navbar ul {
-        list-style-type: none;
+    nav {
         display: flex;
-        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     }
-    .navbar ul li {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+        .navbar a:link, .navbar a:visited {
+            color: #bbca47;
+            text-decoration: none;
+        }
+        .navbar ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            padding: 0px;
+        }
+        .navbar .logo {
+            margin-left: 40px;
+        }
+        .navbar ul li {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .navbar a {
+            margin-right: 40px;
+            padding: 14px 16px;
+        }
+        .navbar a:hover {
+            background: #bbca47;
+            color: #8e8a87;
+        }
 
-.main-product {
-    display: flex;
-    flex-direction: column;
-    background-color: #dbdfe0;
-    align-items: center;
-    margin-top: 50px;
+        
+/*=== The Products Page ===*/
+.main-product:link, .main-product:visited {
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
 }
-    a:link, a:visited {
-        text-decoration: none;
-        color: black;
+    .main-product-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        margin-left: -10px;
+        margin-right: -10px;
     }
-    .main-product h2 {
-        margin-bottom: 0px; 
-    }
-    .main-product img {
-        align-self: center;
-    }
+        .main-product-div h1 {
+            margin-bottom: 0px; 
+        }
+        .main-product-div h3 {
+            margin-top: 10px;
+        }
+        .main-product img {
+            align-self: center;
+        }
+
+/* === Products 1 through 6 === */
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+}
