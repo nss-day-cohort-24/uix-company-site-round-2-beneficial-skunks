@@ -3,27 +3,70 @@
   max-width: 85%;
 }
 
-.headline {
+.s_cart {
+  /* float:left; */
+}
+
+h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   text-align: center;
 }
 .shipping-checkout {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  float: left;
-  width: 400px;
+  font-weight: 400px;
+  width: 350px;
+  border: none;
 }
 
 input {
   font-size: 12px;
   padding: 4px;
+  border: 1px grey solid;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 .advance {
   display: block;
 }
 
+#s-address {
+    width: 100%;
+}
+#s-first-name, #b-first-name, #b-state, #b-postal {
+  width: 30%;
+  display: inline-block;
+}
+
+#s-last-name, #b-last-name, #b-city {
+  width: 60%;
+  display: inline-block;
+}
+
+#s-area-code, #b-area-code, #p-sec-code {
+  width: 25%;
+  display: inline-block;
+}
+
+#s-m-number, #b-m-number, #p-cnumber {
+  width: 65%;
+  display: inline-block;
+}
+
+#s-address, #s-sec-address, #b-email, #b-address, #b-sec-address {
+  width: 95%;
+}
+
+#s-postal, #s-state{
+  width: 50%
+  display: inline-block;
+}
+
 #address-2 {
-  max-width: 100%;
+  max-width: 90%;
+}
+
+#p-card, #p-paypal {
+  display: block;
 }
