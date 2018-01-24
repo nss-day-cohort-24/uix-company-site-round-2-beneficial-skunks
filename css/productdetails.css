@@ -5,7 +5,7 @@
 
 /* === main info === */
 .mainInfo {
-    margin: 0 20em 0 20em;
+    margin: 0 12em 0 12em;
 }
 
 .mainInfo h1 {
@@ -22,6 +22,7 @@
 aside {
     display: flex;
     display: -webkit-flex;
+    padding: 0;
 }
 
 aside > div{
@@ -31,6 +32,9 @@ aside > div{
     padding: 2% 5% 2% 5%;
 }
 
+.featDetails {
+    text-align: left;
+}
 
 .featDetails h3 {
     padding: .25em 0 .25em 1em;
