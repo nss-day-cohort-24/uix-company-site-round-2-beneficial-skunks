@@ -40,6 +40,8 @@
 
         
 /*=== The Products Page ===*/
+
+/* === Main Product === */
 .main-product:link, .main-product:visited {
     text-decoration: none;
     color: black;
@@ -96,13 +98,15 @@
         }
         #top-cards .inner-text {
             position: absolute;
-            margin: auto;
+            margin: 0 auto;
             z-index: 2;
             top: 0px;
             bottom: 0px;
             left: 0px;
             right: 0px;
-            vertical-align: middle;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     .product-1:hover img, .product-1:focus img {
         transform: scale(1.2);
@@ -144,7 +148,9 @@
             bottom: 0px;
             left: 0px;
             right: 0px;
-            vertical-align: middle;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     .product-4:hover img, .product-4:focus img {
         transform: scale(1.2);
