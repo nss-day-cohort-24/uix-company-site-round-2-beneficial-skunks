@@ -81,7 +81,7 @@
           <h3>Shipping Policy</h3>
           <p>Mauris sollicitudin tellus ut tortor laoreet semper. Aenean felis neque, placerat eget metus non, vestibulum venenatis mi. Nam a nisi vitae sem finibus sodales.</p>
         </div>
-        <hr style="border: 1px gray solid">
+        <hr>
         <!-- Billing Contact, Address and Payment -->
         <div>
           <!-- Country of Billing Address -->
@@ -167,7 +167,7 @@
               </span>
             </div>
           </fieldset>
-          <hr style="border: 1px gray solid">
+          <hr>
           <!-- Payment Information -->
           <fieldset class="shipping-checkout">
             <legend>Payment Information</legend>
@@ -209,22 +209,25 @@
               </div>
           </fieldset>
           <!-- Section for Submit button -->
-          <div>
-            <p><span>Total: </span>$123.45</p>
+          <hr>
+          <div class="p-summary">
+            <div style="width: 200px">
+              <p>subtotal: 100.00</p>
+              <p>taxes: 9.25</p>
+              <p>shipping: 5.00</p>
+              <hr>
+              <p style="margin-bottom: 20px">Total: $114.25</p>
+            </div>
             <span style="float: right">
               <label for="p-submit"></label>
-              <input id="p-submit" type="button" value="Buy">
+              <input id="p-submit" type="button" value="BUY">
             </span>
           </div>
         </div>
       </form>
-      <!-- Section for Total information -->
-      <div>
-      </div>
     </div>
   </div>
 <footer>
-  <!-- <div style="height: 100px"></div> -->
 </footer>
 </body>
 </html>
