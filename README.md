@@ -65,7 +65,7 @@ The team's product page will be driven from JavaScript code. Decide on at least,
 1. The layout of the product page should be a grid of cards. 3-wide, 4-wide, 5-wide, the teams must decide how many cards are on each row.
 
 ### HTML and CSS
-1. Use emantic HTML.
+1. Use semantic HTML.
 1. Each page should have one meaningful and important headline (h1).
 1. All styles included within css file.
 
