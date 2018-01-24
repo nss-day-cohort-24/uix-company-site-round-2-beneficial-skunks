@@ -3,10 +3,7 @@ console.log("JS TEST");
 var products = [
     {number: "1", image: "images/backpack.png", name: "Product-1"},
     {number: "2", image: "images/iBeacon.png", name: "Product-2"},
-    {number: "3", image: "images/watchApp.png", name: "Product-3"},
-    // {number: "4", image: "images/Tech-Fill.png", name: "Product-4"},
-    // {number: "5", image: "images/Tech-Fill.png", name: "Product-5"},
-    // {number: "6", image: "images/Tech-Fill.png", name: "Product-6"}
+    {number: "3", image: "images/watchApp.png", name: "Product-3"}
 ];
 
 var productsInput = "";

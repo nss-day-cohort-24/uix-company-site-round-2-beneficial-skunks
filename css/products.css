@@ -40,31 +40,6 @@
 
         
 /*=== The Products Page ===*/
-/* .main-product:link, .main-product:visited {
-    text-decoration: none;
-    color: black;
-    overflow: hidden;
-}
-    .main-product-div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 100px;
-        margin-left: -5px;
-        margin-right: -5px;
-    }
-        .main-product-div h1 {
-            margin-bottom: 0px; 
-        }
-        .main-product-div h3 {
-            margin-top: 10px;
-        }
-        .main-product img {
-            align-self: center;
-            flex-grow: 1;
-            width: 500px;
-            height: auto;
-        } */
 .main-product:link, .main-product:visited {
     text-decoration: none;
     color: black;
@@ -80,6 +55,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            overflow: hidden;
         }
             .main-product-div h1 {
                 margin-bottom: 0px; 
@@ -90,20 +66,28 @@
             .main-product img {
                 max-width: 100%;
                 height: auto;
+                transition: all 0.5s;
             }
+    .main-product-div:hover img, .main-product-div:focus img {
+        transform: scale(1.08);
+    }
 
 /* === Products 1 through 3 === */
 #top-cards {
     display: flex;
+    margin: 10px 0px 10px 0px;
 }
     .product-1 {
         position: relative;
+        overflow: hidden;
     }
     .product-2 {
         position: relative;
+        overflow: hidden;
     } 
     .product-3 {
         position: relative;
+        overflow: hidden;
     }
         #top-cards img {
             width: 100%;
@@ -120,14 +104,16 @@
             right: 0px;
             vertical-align: middle;
         }
-    .product-1 {
-        background-image: url("images/backpack.png");
-        background-position: center;
-        background-size: cover;
-    }
     .product-1:hover img, .product-1:focus img {
         transform: scale(1.2);
     }
+    .product-2:hover img, .product-2:focus img {
+        transform: scale(1.2);
+    }
+    .product-3:hover img, .product-3:focus img {
+        transform: scale(1.2);
+    }
+
 
 /* === Products 4 through 6 === */
 #bottom-cards {
@@ -135,16 +121,20 @@
 }
     .product-4 {
         position: relative;
+        overflow: hidden;
     }
     .product-5 {
         position: relative;
+        overflow: hidden;
     } 
     .product-6 {
         position: relative;
+        overflow: hidden;
     }      
         #bottom-cards img {
             width: 100%;
             height: auto;
+            transition: all 0.5s;
         }
         #bottom-cards .inner-text {
             position: absolute;
@@ -156,3 +146,12 @@
             right: 0px;
             vertical-align: middle;
         }
+    .product-4:hover img, .product-4:focus img {
+        transform: scale(1.2);
+    }
+    .product-5:hover img, .product-5:focus img {
+        transform: scale(1.2);
+    }
+    .product-6:hover img, .product-6:focus img {
+        transform: scale(1.2);
+    }
