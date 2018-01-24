@@ -88,28 +88,71 @@
                 margin-top: 10px;
             }
             .main-product img {
-                width: 100%;
+                max-width: 100%;
                 height: auto;
             }
 
-/* === Products 1 through 6 === */
+/* === Products 1 through 3 === */
 #top-cards {
     display: flex;
 }
-    .product-1 img {
+    .product-1 {
         position: relative;
-        width: 100%;
-        height: auto;
     }
-        .product-1>.product-name {
-            position: absolute;
-            top: 935.125px;
+    .product-2 {
+        position: relative;
+    } 
+    .product-3 {
+        position: relative;
+    }
+        #top-cards img {
+            width: 100%;
+            height: auto;
+            transition: all .5s;
         }
-    .product-2 img {
-        width: 100%;
-        height: auto;
+        #top-cards .inner-text {
+            position: absolute;
+            margin: auto;
+            z-index: 2;
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            vertical-align: middle;
+        }
+    .product-1 {
+        background-image: url("images/backpack.png");
+        background-position: center;
+        background-size: cover;
     }
-    .product-3 img {
-        width: 100%;
-        height: auto;
+    .product-1:hover img, .product-1:focus img {
+        transform: scale(1.2);
     }
+
+/* === Products 4 through 6 === */
+#bottom-cards {
+    display: flex;
+}
+    .product-4 {
+        position: relative;
+    }
+    .product-5 {
+        position: relative;
+    } 
+    .product-6 {
+        position: relative;
+    }      
+        #bottom-cards img {
+            width: 100%;
+            height: auto;
+        }
+        #bottom-cards .inner-text {
+            position: absolute;
+            margin: auto;
+            z-index: 2;
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            vertical-align: middle;
+        }
