@@ -1,4 +1,6 @@
+/* ============================ */
 /* ======= Base Styles ======== */
+/* ============================ */
 
 /* Main content */
 .main {
@@ -63,21 +65,24 @@ p {
 .lightGrey {
     background-color: #dbdfe0;
 }
+/* end base styles */
 
-
+/* ================================== */
 /* ======= The navigation bar ======= */
-.navbar {
-    position: fixed; /* Set the navbar to fixed position */
-    z-index: 9999;
-    background-color: #333;
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    border-bottom: 1px solid lightgray;
+/* ================================== */
+
+/* .navbar { */
+    /* position: fixed; Set the navbar to fixed position */
+    /* z-index: 9999; */
+    /* background-color: #333; */
+    /* top: 0; Position the navbar at the top of the page */
+    /* width: 100%; Full width */
+    /* border-bottom: 1px solid lightgray;
     border-radius: 0;
     margin-left: 0;
     padding: 0;
-}
-
+} */
+/* 
 nav {
     display: flex;
     display: -webkit-flex;
@@ -86,41 +91,68 @@ nav {
 
 .navbar li {
     display:inline;
-}
+} */
 
 /* Links inside the navbar */
-.navbar a {
+/* .navbar a {
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+} */
 
 /* Change background on mouse-over */
-.navbar a:hover {
+/* .navbar a:hover {
     background: #ddd;
     color: black;
-}
+} */
 
-/* ==== carousel ===== */
-
-#carouselExampleIndicators img {
+/* The navigation bar */
+.navbar {
+    position: fixed;
+    background-color: #8e8a87;
+    top: 0;
     width: 100%;
+    margin-left: -8px;
+    z-index: 9999;
 }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+        .navbar a:link, .navbar a:visited {
+            color: #bbca47;
+            text-decoration: none;
+        }
+        .navbar ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            padding: 0px;
+        }
+        .navbar .logo {
+            margin-left: 40px;
+        }
+        .navbar ul li {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .navbar a {
+            margin-right: 40px;
+            padding: 14px 16px;
+        }
+        .navbar a:hover {
+            background: #bbca47;
+            color: #8e8a87;
+        }
 
-/* ==== home ===== */
+        
+/* end navbar */
 
-.mainH1 {
-  position: absolute;
-  color: #fff;
-  bottom: 7%;
-  right: 5%;
-  z-index: 20;
-  font-size: 120px;
-  text-shadow: 0 1px 2px #000;
-}
-
+/* ================= */
 /* ==== Footer ====  */
+/* ================= */
 
 .social {
     padding-top: 1em;
@@ -139,6 +171,44 @@ nav {
     text-decoration: none;   
 }
 /*end footer styles*/
+
+/* ================ */
+/* ==== home ===== */
+/* ================ */
+
+.mainH1 {
+  position: absolute;
+  color: #fff;
+  bottom: 7%;
+  right: 5%;
+  z-index: 20;
+  font-size: 120px;
+  text-shadow: 0 1px 2px #000;
+}
+
+aside {
+    text-align: center;
+    padding: 3em;
+    color: #8e8a87;
+}
+
+/* === article products === */
+
+    .indxProducts {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+    }
+
+    .indxProducts img {
+        width: 33%;
+        height: 33%;
+    }
+
+   .js {
+        z-index: 10;
+    }
+
 
 /* === testimonials ===  */
 
@@ -212,39 +282,5 @@ nav {
         float: left;
         margin-right: 10px;
     }
-
-
-    /**
-    MEDIA QUERIES
-    */
-
-    /* Small devices (tablets, 768px and up) */
-    /* @media (min-width: 768px) { 
-        #quote-carousel 
-        {
-        margin-bottom: 0;
-        padding: 0 40px 30px 40px;
-        }
-        
-    } */
-
-    /* Small devices (tablets, up to 768px)
-    @media (max-width: 768px) { 
-        
-        /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-        
-        /* #quote-carousel .carousel-indicators {
-            bottom: -20px !important;  
-        }
-        #quote-carousel .carousel-indicators li {
-            display: inline-block;
-            margin: 0px 5px;
-            width: 15px;
-            height: 15px;
-        }
-        #quote-carousel .carousel-indicators li.active {
-            margin: 0px 5px;
-            width: 20px;
-            height: 20px;
-        } */ */
-    }
+    
+    /* end home styles */
