@@ -1,6 +1,6 @@
 .container {
   margin: auto;
-  max-width: 85%;
+  max-width: 65%;
 }
 
 .s_cart {
@@ -15,8 +15,9 @@ h1 {
 .shipping-checkout {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  width: 350px;
   border: none;
+  margin: 0;
+  width: 400px;
 
 }
 
@@ -91,7 +92,6 @@ input {
   background: #bbca47;
   text-decoration: none;
 }
-}
 
 .addl_info {
   padding: 10px;
@@ -104,4 +104,7 @@ input {
 }
 .addl_info h3 {
   color: #7bcbcc;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
