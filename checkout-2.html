@@ -10,18 +10,18 @@
   <div class="container">
     <h1>Checkout</h1>
     <!-- Items in Cart -->
-    <div class="s_cart">
+    <!-- <div class="s_cart">
       <ul>
         <li></li>
         <li></li>
         <li></li>
         <li></li>
       </ul>
-    </div>
+    </div> -->
     <div>
       <form>
         <!-- Shipping Address -->
-        <div>
+        <div style="display: inline-block">
           <fieldset class="shipping-checkout">
             <legend>Shipping Address</legend>
             <!-- Full Name -->
@@ -77,6 +77,11 @@
             </div>
           </fieldset>
         </div>
+        <div class="addl_info">
+          <h3 style="text-align: left">Shipping Policy</h3>
+          <p>Mauris sollicitudin tellus ut tortor laoreet semper. Aenean felis neque, placerat eget metus non, vestibulum venenatis mi. Nam a nisi vitae sem finibus sodales.</p>
+        </div>
+        <hr style="border: 1px gray solid">
         <!-- Billing Contact, Address and Payment -->
         <div>
           <!-- Country of Billing Address -->
@@ -162,47 +167,51 @@
               </span>
             </div>
           </fieldset>
+          <hr style="border: 1px gray solid">
           <!-- Payment Information -->
           <fieldset class="shipping-checkout">
             <legend>Payment Information</legend>
-            <!-- Card or PayPal radio button-->
-            <!-- Card -->
-            <label for="p-card"></label>
-            <input id="p-card" type="radio" name="payment" value="credit card">
+            <div style="padding: 5px">
+              <!-- Card or PayPal radio button-->
+              <!-- Card -->
+              <label for="p-card">Debit or Credit Card</label>
+              <input id="p-card" type="radio" name="payment" value="credit card">
 
-              <!-- Card Information -->
-              <div>
-                <!-- Card Number -->
-                <span>
-                  <label for="p-cnumber"></label>
-                  <input id="p-cnumber" type="text" placeholder="Card Number" required>
-                </span>
-                <!-- Security Code -->
-                <span>
-                  <label for="p-sec-code"></label>
-                  <input id="p-sec-code" type="text" placeholder="Security Code" required>
-                </span>
+                <!-- Card Information -->
+                <div>
+                  <!-- Card Number -->
+                  <span>
+                    <label for="p-cnumber"></label>
+                    <input id="p-cnumber" type="text" placeholder="Card Number" required>
+                  </span>
+                  <!-- Security Code -->
+                  <span>
+                    <label for="p-sec-code"></label>
+                    <input id="p-sec-code" type="text" placeholder="Security Code" required>
+                  </span>
+                </div>
+                <!-- Card Expiration Date -->
+                <div>
+                  <!-- Exp Month -->
+                  <span>
+                    <label for="p-exmon"></label>
+                    <input id="p-exmon" type="text" placeholder="Month" required>
+                  </span>
+                  <!-- Exp Year -->
+                  <span>
+                    <label for="p-exyr"></label>
+                    <input id="p-exyr" type="text" placeholder="Year">
+                  </span>
+                </div>
+                <!-- PayPal -->
+                <label for="p-paypal" style="position: left">PayPal</label>
+                <input id="p-paypal"type="radio" name="payment" value="PayPal">
               </div>
-              <!-- Card Expiration Date -->
-              <div>
-                <!-- Exp Month -->
-                <span>
-                  <label for="p-exmon"></label>
-                  <input id="p-exmon" type="text" placeholder="Month" required>
-                </span>
-                <!-- Exp Year -->
-                <span>
-                  <label for="p-exyr"></label>
-                  <input id="p-exyr" type="text" placeholder="Year">
-                </span>
-              </div>
-              <!-- PayPal -->
-              <label for="p-paypal">
-              <input id="p-paypal"type="radio" name="payment" value="PayPal">
           </fieldset>
           <!-- Section for Submit button -->
           <div>
-            <span>
+            <p><span>Total: </span>$123.45</p>
+            <span style="float: right">
               <label for="p-submit"></label>
               <input id="p-submit" type="button" value="Buy">
             </span>
@@ -214,6 +223,8 @@
       </div>
     </div>
   </div>
-<footer></footer>
+<footer>
+  <!-- <div style="height: 100px"></div> -->
+</footer>
 </body>
 </html>
