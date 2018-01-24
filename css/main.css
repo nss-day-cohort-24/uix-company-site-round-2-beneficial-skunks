@@ -113,7 +113,7 @@ nav {
     background-color: #8e8a87;
     top: 0;
     width: 100%;
-    margin-left: -8px;
+    margin-left: 0;
     z-index: 9999;
 }
     nav {
@@ -184,7 +184,7 @@ nav {
 
 .mainH1 {
   position: absolute;
-  /* color: #fff; */
+  color: #fff;
   bottom: 7%;
   right: 5%;
   z-index: 20;
