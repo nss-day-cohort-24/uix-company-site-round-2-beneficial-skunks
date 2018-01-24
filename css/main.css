@@ -107,6 +107,8 @@ nav {
 
 #carouselExampleIndicators img {
     width: 100%;
+    margin-left: 0;
+    z-index: 9999;
 }
 
 /* ==== home ===== */
@@ -140,6 +142,44 @@ nav {
     text-decoration: none;
 }
 /*end footer styles*/
+
+/* ================ */
+/* ==== home ===== */
+/* ================ */
+
+.mainH1 {
+  position: absolute;
+  color: #fff;
+  bottom: 7%;
+  right: 5%;
+  z-index: 20;
+  font-size: 120px;
+  text-shadow: 0 1px 2px #000;
+}
+
+aside {
+    text-align: center;
+    padding: 3em;
+    color: #8e8a87;
+}
+
+/* === article products === */
+
+    .indxProducts {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+    }
+
+    .indxProducts img {
+        width: 33%;
+        height: 33%;
+    }
+
+   .js {
+        z-index: 10;
+    }
+
 
 /* === testimonials ===  */
 
