@@ -1,9 +1,9 @@
 console.log("JS TEST");
 
 var products = [
-    {number: "1", image: "images/backpack.png", name: "Product-1"},
-    {number: "2", image: "images/iBeacon.png", name: "Product-2"},
-    {number: "3", image: "images/watchApp.png", name: "Product-3"}
+    {number: "1", image: "images/backpack.png", name: "Safety Net App"},
+    {number: "2", image: "images/iBeacon.png", name: "iBeacon Technology"},
+    {number: "3", image: "images/watchApp.png", name: "Safety Net Watch"}
 ];
 
 var productsInput = "";
@@ -20,9 +20,9 @@ for (i = 0; i < products.length; i++) {
 document.getElementById("top-cards").innerHTML = productsInput;
 
 var products2 = [
-    {number: "4", image: "images/camp.png", name: "Product-4"},
-    {number: "5", image: "images/drone.png", name: "Product-5"},
-    {number: "6", image: "images/phone.png", name: "Product-6"}
+    {number: "4", image: "images/camp.png", name: "Extended Trip App"},
+    {number: "5", image: "images/drone.png", name: "Savior Drone"},
+    {number: "6", image: "images/phone.png", name: "Moblie Application"}
 ];
 
 var products2Input = "";
